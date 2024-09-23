@@ -19,7 +19,7 @@ class ViewController: UIViewController {
                          UIImage(imageLiteralResourceName: "ball4"),
                          UIImage(imageLiteralResourceName: "ball5")]
                          
-        imageView.image=ballArray[2]
+        imageView.image=ballArray.randomElement()
         
         
     }
